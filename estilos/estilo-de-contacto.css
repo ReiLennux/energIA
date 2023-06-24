@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+body{
+    background: #f5f5f5;
+}
+header{
+    height: 100px;
+}
+
+.contenedor{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    padding: 40px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo img{
+  width: 220px;
+}
+
+.menu nav ul{
+    display: flex;
+
+}
+
+.menu nav ul li{
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.menu nav ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    transition: opacity 300ms;
+}
+
+
+.menu nav ul li a:hover{
+    opacity: 0.6;
+}
+
+.btnRegistrar{
+    padding: 14px 50px;
+    border: none;
+    background: black;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background, color, 300ms;
+}
+
+.btnRegistrar:hover{
+    background: lightblue ;
+    color: black;
+
+}
+
+
+
+/*formulario*/
+#formulario{
+    margin-left: 60px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+
+.inputbox {
+    position: relative;
+    width: 400px;
+    margin: 70px;
+  }
+  
+  .inputbox input {
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+  }
+  
+  .inputbox span {
+    position: absolute;
+    left: 0;
+    padding: 20px 10px 10px;
+    font-size: 1em;
+    color: #8f8f8f;
+    letter-spacing: 00.05em;
+    transition: 0.5s;
+    pointer-events: none;
+  }
+  
+  .inputbox input:valid ~span,
+  .inputbox input:focus ~span {
+    color: black;
+    transform: translateX(-10px) translateY(-34px);
+    font-size: 12PX;
+    
+  }
+  
+  .inputbox i {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    border-radius: 4px;
+    transition: 0.5s;
+    pointer-events: none;
+    z-index: 9;
+  }
+  
+
+  
+  .inputbox input:valid ~i,
+  .inputbox input:focus ~i {
+    height: 40px;
+  }
+
+  .sobre{
+    height: 100%;
+    position: absolute;
+    left: 10px;
+    overflow: hidden;
+}
+
+#sobrecito{
+    width: 150px;
+    position: relative;
+    margin-top: -10px;
+}
+
+
+
+  #btnregi{
+    padding-top: -60px;
+    padding-left: 360px;
+    padding-bottom: 10px;
+  }
+
+  .carta{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    width: 800px;
+    height: 100%;
+    background: rgba(217, 217, 217, 0.256);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    color: black;
+  }
+  
+.carta:hover {
+border: 1px solid lightgray;
+}
+ 
+.formulario-imagen img{
+  margin-left: 30px;
+  transition: all .3s;
+  filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.3));
+  
+}
+.formulario-imagen img:hover{
+  margin-top: -80px;
+  
+}
+
+/*footer*/
+.pie{
+width: 100%;
+background: #23242a;
+}
+
+.pie .grupo{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+
+.pie .grupo .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.pie .grupo .box figure img{
+  width: 200px;
+}
+
+.pie .grupo .box p a{
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  transition: color 300ms;
+  text-align: center;
+}
+
+.pie .grupo .box p a:hover{
+  color: lightblue;
+}
+
+.pie .grupo .box h2{
+  text-align: center;
+  font-size: 16px;
+  color: #f5f5f5;
+}
