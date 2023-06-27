@@ -10,6 +10,7 @@ body{
 }
 header{
     height: 100px;
+    padding-bottom: 120px;
 }
 
 .contenedor{
@@ -71,21 +72,28 @@ header{
 .main {
     padding: 100px;
     display: flex;
-    background-image: url(/recursos-graficos/adulto-en-casa.png);
+    background-image: url(/recursos-graficos/mano-bombilla.jpg);
     background-position: right;
+    background-size: 1200px;
+    background-repeat: no-repeat;
     margin: 20px;
 }
 
  .main-texto{
     align-items: center;
+    color: #f5f5f5;
  }
   
   .main-texto h1 {
     font-size: 40px;
  /* Cambia de absolute a relative */
     height: 100%;
-
     left: 10px;
+  }
+
+   .main:hover span{
+    transition: 1s;
+    color: #f2cd00;
   }
   
   .main-imagen{
@@ -98,6 +106,68 @@ header{
     margin-left: 800px;
   }
   
+/*cuerpo*/
+.acerca{
+padding-top: 90px;
+float: left;
+max-width: 40%;
+text-align: center;
+margin: 0px 30px;
+}
+.acerca p{
+  line-height: 50px;
+}
+
+.acerca h1{
+  padding-bottom: 20px;
+}
+
+.imgn img{
+  width: 500px;
+  float: right;
+  margin-right: 150px; 
+}
+
+.imgn2{
+  padding-top: 400px;
+}
+.imgn2 img{
+  width: 400px;
+  float: left;
+  margin-left: 70px;
+}
+
+.mision{
+  padding-top: 80px;
+  float: right;
+  max-width: 40%;
+  text-align: center;
+  margin: 0px 100px;
+}
+
+.mision p {
+  line-height: 50px;
+}
+
+.mision h1{
+  padding-bottom: 20px;
+}
+
+.equipo{
+  margin-top: 450px;
+}
+
+.equipo h2{
+  text-align: center;
+  
+}
+
+.equipoS ul{
+  display: flex;
+  list-style: none;
+
+}
+
 
 /*footer*/
 .pie{
