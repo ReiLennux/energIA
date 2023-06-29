@@ -166,9 +166,8 @@ header{
     box-sizing: border-box;
     width: 800px;
     height: 100%;
-    background: rgba(217, 217, 217, 0.256);
-    border: 1px solid white;
-    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    background: #f5f5f5;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.12);
     backdrop-filter: blur(6px);
     border-radius: 17px;
     text-align: center;
@@ -180,9 +179,7 @@ header{
     color: black;
   }
   
-.carta:hover {
-border: 1px solid lightgray;
-}
+
  
 .formulario-imagen img{
   margin-left: 30px;

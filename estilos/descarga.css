@@ -115,17 +115,21 @@ text-align: center;
 margin: 0px 30px;
 }
 .acerca p{
-  line-height: 50px;
+  line-height: 60px;
 }
 
 .acerca h1{
   padding-bottom: 20px;
 }
 
+.imgn{
+  padding-top: 50px;
+}
+
 .imgn img{
-  width: 500px;
+  width: 300px;
   float: right;
-  margin-right: 120px; 
+  margin-right: 190px; 
 }
 
 .imgn2{
@@ -134,15 +138,16 @@ margin: 0px 30px;
 .imgn2 img{
   width: 400px;
   float: left;
-  margin-left: 70px;
+  margin-left: 140px;
 }
 
 .mision{
-  padding-top: 80px;
+  padding-top: 50px;
   float: right;
   max-width: 40%;
-  text-align: center;
+  text-align: right;
   margin: 0px 100px;
+  padding-bottom: 80px;
 }
 
 .mision p {
@@ -153,51 +158,74 @@ margin: 0px 30px;
   padding-bottom: 20px;
 }
 
-.equipo{
-  margin-top: 450px;
-  padding-bottom: 50px;
-  
-}
-
-.equipo h2{
-  text-align: center;
-  padding-bottom: 60px;
-  
-}
-
-
-.equipoS ul{
-  display: flex;
+.mision ul li{
   list-style: none;
-  width: 100%;
-  justify-content:space-around;
-
+  padding: 4px 0px;
 }
 
-
-.equipoS img{
-  width: 100px;
+.descarga{
+  margin-top: 500px;
+  padding: 20px 200px;
+  
+}
+.descarga h1{
+  padding-bottom: 20px;
 }
 
-
-.image-container {
+.botones{
   display: flex;
+  justify-content: space-around;
 }
 
-.image-wrapper {
-  flex: 1;
+
+.botones div{
+  padding-top: 50px;
+}
+
+
+.desc-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+  border-radius: 9999px;
+  background-color: rgba(0, 0, 0, 1);
+  padding: 0.625rem 1.5rem;
   text-align: center;
-  margin: 0 10px;
+  color: rgba(255, 255, 255, 1);
+  outline: 0;
+  transition: all  .2s ease;
+  text-decoration: none;
 }
 
-.image-container img{
-  width: 150px;
+.desc-button:hover {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 1);
+  cursor: pointer;
 }
 
-.caption {
-  margin-top: 10px;
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
+.texts {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1;
+}
+
+.text-1 {
+  margin-bottom: 0.25rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-2 {
+  font-weight: 600;
+}
 
 
 

@@ -71,7 +71,7 @@ header{
 
 main{
     max-width: 1200px;
-    height: calc(100vh + 800px);
+    height: calc(100vh + 650px);
     padding: 40px;
     margin: auto;
 
@@ -105,7 +105,7 @@ main{
 
 }
 .Leermas{
-    padding: 14px 40px;
+    padding: 14px 50px;
     border: none;
     color: black;
     font-weight: 500;
@@ -117,7 +117,7 @@ main{
 
 .Leermas:hover{
     background: #e8e8e8;
-    width: 50px;
+
 }
 
 .mediacover{
@@ -168,6 +168,7 @@ main{
     color: white;
     font-size: 32px;
     font-weight: 400;
+    font-weight: bolder;
 }
 
 .bannertxt a{
@@ -182,7 +183,7 @@ main{
 
 .bannertxt a:hover{
     color:lightblue;
-}
+} 
 
 
 .bannerrayo{
@@ -201,7 +202,7 @@ main{
 
 /*artiCULOS*/
 .informacion{
-    padding-top: 120px;
+    padding-top: 100px;
     display: flex;
 
 }
@@ -212,13 +213,14 @@ main{
 
 .informacion p{
     text-align: justify;
-    line-height: 25px;
+    line-height: 30px;
+    
 }
 .informacion div{
     align-items: center;
 }
 .informacion div img{
-    width: 300px;
+    width: 250px;
     padding-left: 20px;
 }
 
